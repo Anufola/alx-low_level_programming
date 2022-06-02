@@ -1,13 +1,7 @@
 #include <stdio.h>
 
 /**
- *
- * * main - Print the string in the put function
- *
- * *
- *
- * * Description - using the main function
- * * print_Programming_is_like_building_a_multilingual_puzzle
+ * * main - Print Programming is like building a multilingual puzzle - the string in the put function
  *
  * * Return: Always 0 (Sucess)
  *
