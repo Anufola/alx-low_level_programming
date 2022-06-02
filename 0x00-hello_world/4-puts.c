@@ -8,7 +8,7 @@
  *
  * * Description - using the main function
  *
- * * this program prints "Programming is like building a multilingual puzzle
+ * * print_Programming_is_like_building_a_multilingual_puzzle
  *
  * * Return: Always 0 (Sucess)
  *
