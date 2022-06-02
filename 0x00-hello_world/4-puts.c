@@ -7,7 +7,6 @@
  * *
  *
  * * Description - using the main function
- *
  * * print_Programming_is_like_building_a_multilingual_puzzle
  *
  * * Return: Always 0 (Sucess)
