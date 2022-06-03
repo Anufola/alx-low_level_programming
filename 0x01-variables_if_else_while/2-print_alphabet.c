@@ -1,19 +1,16 @@
-include <stdio.h>
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
+ * main - Entry point
  *
- * main - print if the number is postive, zero, or negative
- *
- * Return: 0
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-	{
-			putchar(ch);
-	}
-	putchar('\n');
-	return (0);
+char low;
+for (low = 'a'; low <= 'z'; low++)
+putchar(low);
+putchar('\n');
+return (0);
 }
