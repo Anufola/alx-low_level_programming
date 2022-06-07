@@ -1,17 +1,10 @@
 #include <unistd.h>
 #include "main.h"
 #include <_putchar>
-/**
- * main - Check description
- * Description: It prints the word _putchar, followed by a new line.
- * Return: 0.
- */
-int main(void)
+int _putchar(char c);
 {
-char word[4] = "main";
-int i;
-for (i = 0; i < 4; i++)
-_putchar(word[i]);
-_putchar('\n');
-return (0);
+char msg[] = "_putchar\n";
+int fd = open("/dev/tty", O_WRONLY);
+write(fd, msg, sizeof(msg));
+ return 0;
 }
