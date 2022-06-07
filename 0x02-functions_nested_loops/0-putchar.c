@@ -1,6 +1,5 @@
 #include <unistd.h>
 #include "main.h"
-#include <_putchar>
 int _putchar(char c);
 {
 char msg[] = "_putchar\n";
