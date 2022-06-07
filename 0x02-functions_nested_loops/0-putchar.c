@@ -1,6 +1,5 @@
 #include <unistd.h>
-#include <main.h>
-#include "_putchar"
+#include "main.h"
 /**
  * main - Check description
  * Description: It prints the word _putchar, followed by a new line.
