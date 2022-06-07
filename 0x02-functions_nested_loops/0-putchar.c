@@ -1,16 +1,17 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Check description
- * Description: It prints the word _putchar, followed by a new line.
- * Return: 0.
+ * main - function to print
+ *
+ * Return: 0
  */
 int main(void)
+char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r',};
+unsigned int c;
+for (c = 0; c < sizeof(_putchar); c++)
 {
-char word[8] = "_putchar";
-int i;
-for (i = 0; i < 8; i++)
-_putchar(word[i]);
+_putchar(_putchar[c]);
+}
 _putchar('\n');
 return (0);
 }
